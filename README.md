@@ -7,5 +7,7 @@
 4. API level used for compiling is 28
 
 5. The folder "youcare" contains the api codes for the php Login.
-6. Feel free to modify the code and just pretty much create your own stuff out of it.
-7. Do not forget to give attribution
+6. There a users.sql table that includes all registration fields
+7.Create your database and launch it
+8. Feel free to modify the code and just pretty much create your own stuff out of it.
+9. Do not forget to give attribution
