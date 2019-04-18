@@ -11,3 +11,8 @@
 7.Create your database and launch it
 8. Feel free to modify the code and just pretty much create your own stuff out of it.
 9. Do not forget to give attribution
+
+![Screenshot_2019-04-18-08-37-26](https://user-images.githubusercontent.com/35206593/56355718-07cec400-61a5-11e9-9d28-eb2351edbbbe.png)
+![Screenshot_2019-04-18-08-37-20](https://user-images.githubusercontent.com/35206593/56355721-09988780-61a5-11e9-8f3a-e6bfd1ca7783.png)
+![Screenshot_2019-04-18-08-39-19](https://user-images.githubusercontent.com/35206593/56355724-0c937800-61a5-11e9-90f2-8232e40c85fe.png)
+
