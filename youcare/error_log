@@ -1,0 +1,64 @@
+[28-Feb-2019 14:58:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'lawsonlu_lawsonlu'@'localhost' to database 'youcare' in /home/lawsonlu/public_html/youcare/connect.php on line 11
+[28-Feb-2019 14:58:39 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'lawsonlu_lawsonlu'@'localhost' to database 'lawsonlu_youcare' in /home/lawsonlu/public_html/youcare/connect.php on line 11
+[28-Feb-2019 15:06:01 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 12
+[28-Feb-2019 15:06:01 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/lawsonlu/public_html/youcare/register.php on line 12
+[28-Feb-2019 15:06:01 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 22
+[28-Feb-2019 15:06:01 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 32
+[28-Feb-2019 15:17:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 12
+[28-Feb-2019 15:17:51 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/lawsonlu/public_html/youcare/register.php on line 12
+[28-Feb-2019 15:17:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 22
+[28-Feb-2019 15:17:51 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 32
+[28-Feb-2019 15:27:32 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 12
+[28-Feb-2019 15:27:32 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/lawsonlu/public_html/youcare/register.php on line 12
+[28-Feb-2019 15:27:32 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 22
+[28-Feb-2019 15:27:32 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 32
+[28-Feb-2019 15:40:38 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 12
+[28-Feb-2019 15:40:38 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/lawsonlu/public_html/youcare/register.php on line 12
+[28-Feb-2019 15:40:38 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 22
+[28-Feb-2019 15:40:38 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 32
+[28-Feb-2019 15:49:04 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 12
+[28-Feb-2019 15:49:04 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/lawsonlu/public_html/youcare/register.php on line 12
+[28-Feb-2019 15:49:04 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 22
+[28-Feb-2019 15:49:04 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 32
+[28-Feb-2019 15:49:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 12
+[28-Feb-2019 15:49:57 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/lawsonlu/public_html/youcare/register.php on line 12
+[28-Feb-2019 15:49:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 22
+[28-Feb-2019 15:49:57 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 32
+[28-Feb-2019 15:50:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 12
+[28-Feb-2019 15:50:31 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/lawsonlu/public_html/youcare/register.php on line 12
+[28-Feb-2019 15:50:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 22
+[28-Feb-2019 15:50:31 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 32
+[28-Feb-2019 15:52:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 12
+[28-Feb-2019 15:52:44 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/lawsonlu/public_html/youcare/register.php on line 12
+[28-Feb-2019 15:52:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 22
+[28-Feb-2019 15:52:44 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 32
+[28-Feb-2019 15:52:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 12
+[28-Feb-2019 15:52:52 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/lawsonlu/public_html/youcare/register.php on line 12
+[28-Feb-2019 15:52:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 22
+[28-Feb-2019 15:52:52 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 32
+[28-Feb-2019 15:54:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 12
+[28-Feb-2019 15:54:27 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/lawsonlu/public_html/youcare/register.php on line 12
+[28-Feb-2019 15:54:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 22
+[28-Feb-2019 15:54:27 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 32
+[28-Feb-2019 15:54:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 12
+[28-Feb-2019 15:54:35 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/lawsonlu/public_html/youcare/register.php on line 12
+[28-Feb-2019 15:54:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 22
+[28-Feb-2019 15:54:35 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/register.php on line 32
+[11-Mar-2019 05:01:59 UTC] PHP Warning:  include(init.php): failed to open stream: No such file or directory in /home/lawsonlu/public_html/youcare/ask.php on line 2
+[11-Mar-2019 05:01:59 UTC] PHP Warning:  include(init.php): failed to open stream: No such file or directory in /home/lawsonlu/public_html/youcare/ask.php on line 2
+[11-Mar-2019 05:01:59 UTC] PHP Warning:  include(): Failed opening 'init.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/lawsonlu/public_html/youcare/ask.php on line 2
+[11-Mar-2019 05:05:40 UTC] PHP Warning:  include(init.php): failed to open stream: No such file or directory in /home/lawsonlu/public_html/youcare/ask.php on line 2
+[11-Mar-2019 05:05:40 UTC] PHP Warning:  include(init.php): failed to open stream: No such file or directory in /home/lawsonlu/public_html/youcare/ask.php on line 2
+[11-Mar-2019 05:05:40 UTC] PHP Warning:  include(): Failed opening 'init.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/lawsonlu/public_html/youcare/ask.php on line 2
+[11-Mar-2019 05:05:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/ask.php on line 9
+[11-Mar-2019 05:07:31 UTC] PHP Warning:  include(init.php): failed to open stream: No such file or directory in /home/lawsonlu/public_html/youcare/ask.php on line 2
+[11-Mar-2019 05:07:31 UTC] PHP Warning:  include(init.php): failed to open stream: No such file or directory in /home/lawsonlu/public_html/youcare/ask.php on line 2
+[11-Mar-2019 05:07:31 UTC] PHP Warning:  include(): Failed opening 'init.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/lawsonlu/public_html/youcare/ask.php on line 2
+[11-Mar-2019 05:07:37 UTC] PHP Warning:  include(init.php): failed to open stream: No such file or directory in /home/lawsonlu/public_html/youcare/ask.php on line 2
+[11-Mar-2019 05:07:37 UTC] PHP Warning:  include(init.php): failed to open stream: No such file or directory in /home/lawsonlu/public_html/youcare/ask.php on line 2
+[11-Mar-2019 05:07:37 UTC] PHP Warning:  include(): Failed opening 'init.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/lawsonlu/public_html/youcare/ask.php on line 2
+[11-Mar-2019 05:07:37 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/ask.php on line 9
+[11-Mar-2019 05:38:17 UTC] PHP Warning:  include(init.php): failed to open stream: No such file or directory in /home/lawsonlu/public_html/youcare/ask.php on line 2
+[11-Mar-2019 05:38:17 UTC] PHP Warning:  include(init.php): failed to open stream: No such file or directory in /home/lawsonlu/public_html/youcare/ask.php on line 2
+[11-Mar-2019 05:38:17 UTC] PHP Warning:  include(): Failed opening 'init.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/lawsonlu/public_html/youcare/ask.php on line 2
+[11-Mar-2019 05:38:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/lawsonlu/public_html/youcare/ask.php on line 9

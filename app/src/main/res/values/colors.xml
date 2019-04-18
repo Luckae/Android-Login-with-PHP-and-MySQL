@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2589ff</color>
+    <color name="colorPrimaryDark">#292b3d</color>
+    <color name="colorAccent">#096cdf</color>
+    <color name="ucareColor">#1414f9</color>
+    <color name="starBlue">#096cdf</color>
+    <color name="endBlue">#0bcce6</color>
+    <color name="backgroundColor">#fcfcfc</color>
+    <color name="lightGray">#ededed</color>
+    <color name="deepPurple">#7c4dff</color>
+    <color name="materialYellow">#ffb300</color>
+    <color name="materialGreen">#00bf85</color>
+    <color name="pinkAccent">#ff4081</color>
+    <color name="red">#ee6e73</color>
+</resources>

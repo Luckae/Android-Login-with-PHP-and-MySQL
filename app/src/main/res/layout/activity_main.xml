@@ -1,0 +1,401 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentScrim="#2589ff"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:background="@drawable/gradient_layout"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="45dp"
+                    android:src="@drawable/doc" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/jura"
+                    android:text="UCARE SIGN UP"
+                    android:textColor="#fff"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize" />
+
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-70dp"
+        android:background="@drawable/nested_back"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/nested_back"
+            android:layout_gravity="top|clip_vertical"
+            android:orientation="vertical">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="380dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginTop="0dp"
+                android:paddingBottom="50dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="8dp"
+                app:cardMaxElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:weightSum="3">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="40dp">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/first_name"
+                                android:layout_width="300dp"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/ic_perm_identity_black_24dp"
+                                android:drawablePadding="10dp"
+                                android:focusable="true"
+                                android:textColorHint="#000"
+                                android:fontFamily="@font/jura"
+                                android:hint="@string/first"
+                                android:inputType="text"
+                                android:labelFor="@id/first_name"
+                                android:textStyle="bold" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="30dp">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/last_name"
+                                android:layout_width="300dp"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/ic_perm_identity_black_24dp"
+                                android:drawablePadding="10dp"
+                                android:fontFamily="@font/jura"
+                                android:textColorHint="#000"
+                                android:hint="@string/last"
+                                android:inputType="text"
+                                android:textStyle="bold" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/email"
+                                android:layout_width="300dp"
+                                android:layout_height="wrap_content"
+                                android:autofillHints="@string/email"
+                                android:drawableStart="@drawable/ic_email_black_24dp"
+                                android:drawablePadding="10sp"
+                                android:ems="10"
+                                android:fontFamily="@font/jura"
+                                android:textColorHint="#000"
+                                android:hint="@string/email"
+                                android:inputType="textEmailAddress"
+                                android:labelFor="@string/email"
+                                android:textStyle="bold" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/phone_no"
+                                android:layout_width="300dp"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/ic_phone_android_black_24dp"
+                                android:drawablePadding="10sp"
+                                android:ems="10"
+                                android:fontFamily="@font/jura"
+                                android:textColorHint="#000"
+                                android:hint="@string/phone"
+                                android:inputType="phone"
+                                android:labelFor="@string/phone"
+                                android:textStyle="bold" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/date"
+                                android:layout_width="300dp"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:drawableStart="@drawable/ic_date_range_black_24dp"
+                                android:drawablePadding="10dp"
+                                android:ems="10"
+                                android:focusable="false"
+                                android:fontFamily="@font/jura"
+                                android:textColorHint="#000"
+                                android:hint="@string/date"
+                                android:inputType="date"
+                                android:labelFor="@id/password"
+                                android:textStyle="bold" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/country"
+                                android:layout_width="300dp"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/ic_flag_black_24dp"
+                                android:drawablePadding="10dp"
+                                android:ems="10"
+                                android:fontFamily="@font/jura"
+                                android:textColorHint="#000"
+                                android:hint="@string/nation"
+                                android:inputType="text"
+                                android:labelFor="@id/country"
+                                android:textStyle="bold" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/state"
+                                android:layout_width="300dp"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/ic_room_black_24dp"
+                                android:drawablePadding="10dp"
+                                android:ems="10"
+                                android:fontFamily="@font/jura"
+                                android:textColorHint="#000"
+                                android:hint="@string/state"
+                                android:inputType="text"
+                                android:labelFor="@id/state"
+                                android:textStyle="bold" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp">
+
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:passwordToggleEnabled="true"
+                            app:passwordToggleDrawable="@drawable/icon_selector"
+                            app:passwordToggleTint="@color/colorPrimary">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/password"
+                                android:layout_width="300dp"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/ic_fingerprint_black_24dp"
+                                android:drawablePadding="10dp"
+                                android:ems="10"
+                                android:fontFamily="@font/jura"
+                                android:textColorHint="#000"
+                                android:hint="@string/password"
+                                android:inputType="textPassword"
+                                android:labelFor="@id/password"
+                                android:textStyle="bold" />
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="-100dp"
+                        android:layout_marginTop="-10dp">
+
+                        <RadioGroup
+                            android:id="@+id/radioGroup1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="14dp"
+                            android:layout_weight="0.04"
+                            android:padding="10dp"
+                            android:textSize="14sp">
+
+                            <RadioButton
+                                android:id="@+id/radio0"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/lato"
+                                android:text="@string/male"
+                                android:textSize="14sp" />
+
+                            <RadioButton
+                                android:id="@+id/radio1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/lato"
+                                android:text="@string/female"
+                                android:textSize="14sp" />
+
+                            <RadioButton
+                                android:id="@+id/radio2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/lato"
+                                android:text="@string/trans"
+                                android:textSize="16sp" />
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:paddingStart="0dp">
+
+                        <TextView
+                            android:id="@+id/registered"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="@font/jura"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:clickable="true"
+                            android:text="@string/registered"
+                            android:textColor="#ee6e73"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="870dp"
+                    android:layout_marginBottom="90dp"
+                    android:background="@drawable/button_background"
+                    android:fontFamily="@font/jura"
+                    android:text="@string/register"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </androidx.cardview.widget.CardView>
+        </FrameLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
